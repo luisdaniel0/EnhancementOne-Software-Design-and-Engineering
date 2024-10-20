@@ -1,0 +1,66 @@
+/*
+  File: index.css
+  Programmer: Luis Sanchez
+  Contact: luisanchezdh@gmail.com
+  Date: 10/10/2024
+  Version: 1.0
+  Purpose: The styling for the Trivia App. 
+  
+*/
+
+* {
+  box-sizing: border-box; /* Ensures padding and border are included in element's total width and height */
+  color: rgb(255, 255, 255); /* Default text color */
+  font-size: 25px; /* Default font size for all text */
+}
+
+.hidden {
+  display: none; /* Utility class to hide elements */
+}
+
+body {
+  padding: 0%; /* No padding around the body */
+  margin: 0; /* No margin for the body */
+  display: flex; /* Use flexbox for layout */
+  justify-content: center; /* Center content horizontally */
+  width: 100vw; /* Full width of the viewport */
+  height: 100vh; /* Full height of the viewport */
+  align-items: center; /* Center content vertically */
+  background: rgb(31, 32, 33); /* Dark background color */
+  font-family: 'Inter', sans-serif; /* Font style for the body */
+}
+
+img {
+  height: 300px; /* Set a fixed height for images */
+  opacity: 0.1; /* Make images slightly transparent */
+}
+
+.hide {
+  display: none; /* Utility class to hide elements */
+}
+
+.button {
+  font-size: 20px; /* Font size for buttons */
+  color: rgb(6, 30, 127); /* Default text color for buttons */
+  text-decoration: none; /* Remove underline from button text */
+  border: none; /* No border for buttons */
+  font-family: inherit; /* Use the same font family as the body */
+  padding: 0; /* No padding for buttons */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  color: rgb(255, 255, 255); /* Text color for buttons */
+  background-color: rgb(125, 125, 125); /* Background color for buttons */
+  border-radius: 8px; /* Rounded corners for buttons */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18); /* Add shadow for a 3D effect */
+}
+
+.playNow {
+  font-size: 50px; /* Larger font size for the 'Play Now' button */
+}
+
+h1 {
+  font-size: 35px; /* Font size for h1 headings */
+}
+
+label {
+  cursor: pointer; /* Change cursor to pointer on hover for labels */
+}
